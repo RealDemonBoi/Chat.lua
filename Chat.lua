@@ -56,7 +56,7 @@ function MainMenu()
                 modem = modemTry
                 break
             -- there is an error
-            elseif not modemTry and iterations == 6 then
+            elseif iterations == 6 then
                 print("Please connect a modem to your computer and try again!")
                 return
             end
